@@ -18,11 +18,17 @@ p, h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 ul, ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
+
+img {
+    display: block;
+}
+
 .container {
     width: 1440px;
     padding-left: 15px;
@@ -146,6 +152,7 @@ ul, ol {
 
 .sect-backgr {
     background-color: #F4F4FD;
+    padding-top: 7.5em ;
 }
 .list-back {
     background: #FFF;
@@ -158,6 +165,11 @@ ul, ol {
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 4.5em;
+}
+
+.team-img {
+    margin-bottom: 2em;
 }
 .title-img {     
     font-size: 20px;
@@ -172,6 +184,9 @@ ul, ol {
     letter-spacing: 0.32px;
 }
 
+.portfolio {
+    margin-top: 15em;
+}
 /* footer */
 .back-foot {
     background-color: #2E2F42;
