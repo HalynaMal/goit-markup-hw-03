@@ -127,6 +127,18 @@ img {
 }
 
 /* section 2 Feature */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .feature {
  margin-top: 49.5em 9.75em 150.25em 9.75em;
@@ -149,14 +161,14 @@ img {
 
 /* section 3 Our Team and section 4 Our Portfolio*/
 
+.team {
+    padding-top: 120px;
+}
 
-.sect-backgr {
+.team-container {
     background-color: #F4F4FD;
-    padding-top: 7.5em ;
 }
-.list-back {
-    background: #FFF;
-}
+
 .title-section {
     font-size: 36px;
     font-weight: 700;
@@ -165,12 +177,23 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
-    margin-bottom: 4.5em;
+    margin-bottom: 72px;
 }
 
-.team-img {
+.team-card {
+    margin-top: 72px;
     margin-bottom: 2em;
+    border-radius: 0 0 4px 4px;
+    outline: 2px solid blue;
+    background-color: #FFFFFF;
 }
+
+.card-content {
+margin-top: 32px;
+margin-bottom: 32px;
+/* text-align: center; */
+}
+
 .title-img {     
     font-size: 20px;
     font-weight: 500;
@@ -185,8 +208,11 @@ img {
 }
 
 .portfolio {
-    margin-top: 15em;
+    padding-top: 120px;
 }
+
+
+
 /* footer */
 .back-foot {
     background-color: #2E2F42;
