@@ -35,7 +35,7 @@ img {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 /* Header */
 
@@ -58,6 +58,7 @@ img {
     color: #4D5AE5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-left: 156px;
 }
 .logo-accent {
     color: #2E2F42;
@@ -71,6 +72,7 @@ img {
 .header-nav {
     display: flex;
     flex-grow: 1;
+    margin-left: auto;
     justify-content: space-between;
 }
 
@@ -173,6 +175,17 @@ img {
 .feature {
  margin-top: 49.5em 9.75em 150.25em 9.75em;
 }
+
+.feature-list {
+    max-width: 1128px;
+    display: flex;
+    gap: 24px;
+    margin-top: 120px;
+}
+
+.feature-item {
+    width: calc((100%-72px)/4);
+}
 .feature-title {            
     font-size: 20px;
     font-weight: 500;
@@ -207,12 +220,11 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
-    margin-bottom: 72px;
+    
 }
 
 .team-card {
     padding-bottom: 0px;
-    margin-top: 72px;
     margin-bottom: 2rem;
     border-radius: 0 0 4px 4px;
     outline: 2px solid blue;
@@ -227,7 +239,11 @@ img {
 .card-content {
 padding-top: 32px;
 padding-bottom: 32px;
-/* text-align: center; */
+text-align: center;}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .title-img {     
@@ -247,15 +263,21 @@ padding-bottom: 32px;
     padding-top: 120px;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    
+}
 .pick-content {
-    padding-top: 2rem 1rem 2rem 1rem;
+    padding: 32px 16px 32px 16px;
+    
     }
 
 .portfolio-card {
     padding-top: 4.5rem;
     padding-bottom: 0px;
-    width: calc((100%-5*9.75rem)/6);
-    gap: 2rem;
+    max-width: 360px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
@@ -269,7 +291,7 @@ padding-bottom: 32px;
 
 .footer-container {
     background-color: #2E2F42;
-    /* padding: 8.75rem 63.75rem 6.25rem 9.75rem; */
+    padding: 100px 0;
 }
 
 .text-footer{
@@ -278,8 +300,8 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 color: #F4F4FD;
 background-color: #2E2F42;
-max-width: 16.5rem;
-margin-top: 1rem;
+padding-left: 156px;
+max-width: 420px;
 }
 
 .footer-logo {
@@ -290,7 +312,8 @@ margin-top: 1rem;
     color: #4D5AE5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-left: 0;
+    display: inline-block;
+    padding-left: 156px;
     
 }
 
